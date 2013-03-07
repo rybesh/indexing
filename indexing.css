@@ -1,0 +1,21 @@
+p {
+    border: 1px solid gray;
+    max-width: 400px;
+    padding: 10px;
+}
+p > span + span { 
+    border-left: 1px solid gray;
+    padding-left: 4px; 
+} 
+table {
+    border-collapse:collapse;
+}
+table, th, td {
+    border: 1px solid gray;
+}
+th, td {
+    padding: 4px;
+}
+th {
+    cursor: pointer;
+}
