@@ -16,6 +16,9 @@ table, th, td {
 th, td {
     padding: 4px;
 }
-th {
+button:enabled, th {
     cursor: pointer;
+}
+a {
+    margin-left: 10px;
 }
